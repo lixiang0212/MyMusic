@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:text="歌曲名"
+        android:textColor="#fa0202"
+        android:id="@+id/name"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:text="歌手"
+        android:id="@+id/singer"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/name"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="大小"
+        android:textColor="#02facd"
+        android:id="@+id/size"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_below="@+id/size"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="时间"
+        android:textColor="#02facd"
+        android:id="@+id/time"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
